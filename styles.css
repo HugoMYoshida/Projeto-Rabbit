@@ -1,0 +1,105 @@
+body {
+    --azul-agua: #6495ED;
+    --azul-claro: #87CEFA;
+    --cinza-claro: #C0C0C0;
+  font-family: 'Barlow', sans-serif;
+}
+
+
+.imagem-logo{
+    width: 10em;
+}
+
+.banner-tamanho{
+    width: 100%; 
+    height: 50%;
+}
+
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao{
+    padding: 2em;
+    text-align: right;
+}
+
+.secundario__imagem{
+    width: 80%;
+
+}
+
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 20px;
+}
+
+.botao-padrao{
+    background-color: var(--azul-claro);
+    color:#FFFFFF;
+}
+
+.botao-padrao:hover{
+    background-color: var(--azul-agua);
+}
+
+.banner-1{
+    background-image: url(./img/banner-1.png);
+}
+
+.banners{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.animationFadeIn{
+    animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.banners-titulo{
+    --bs-bg-opacity: .2;
+}
+
+footer{
+    background-color:var(--azul-agua);
+}
+
+.mapBox iframe{
+    margin: 0 auto;
+}
+
+.lista-matricula{
+    list-style-position: outside;
+    text-align: left;;
+    padding: 60px, 0, 60px, 0;
+}
+
+.banner-2{
+    background-image: url(./img/pagina-segmentos.png);
+}
+
+.banners-segmentos{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: var(--azul-claro);
+}
